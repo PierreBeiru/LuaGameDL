@@ -2,10 +2,10 @@
 
 ]]
 
-local require "scenes/ingame"
-local require "scenes/menus"
-local require "scenes/settings"
-local require "scenes/wiki"
+local ingame = require "scenes/ingame"
+local menus = require "scenes/menus"
+local settings = require "scenes/settings"
+local wiki = require "scenes/wiki"
 
 local scene = {}
 
@@ -24,7 +24,7 @@ function love.keyboard.hasTextInput() end
 function love.keyboard.setKeyRepeat(enable) end
 function love.keyboard.isScancodeDown(scancode, ...) end
 function love.keyboard.getKeyFromScancode(scancode) end
-function love.keyboard.getScancodeFromKey(key) end=
+function love.keyboard.getScancodeFromKey(key) end
 
 function love.gamepadaxis(joystick, axis) end
 function love.gamepadpressed(joystick, button) end
