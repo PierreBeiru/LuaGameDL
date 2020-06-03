@@ -9,12 +9,19 @@ function menus.update(dt)
   local Delta = love.timer.getDelta()
 end
 function menus.draw()
-  love.graphics.print("Hello World", 10, 10)
+
 end
 
 function menus.keypressed(key)
   if key == "escape" then
-    --Open up menu to quit
+
+    love.event.quit()
+  end
+  if key == "" then
+    
+  end
+  if key == "" then
+
   end
   if key == "" then
 
