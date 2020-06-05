@@ -3,6 +3,18 @@
 ]]
 local menus = {}
 
+local main_menu_btns = {}
+main_menu_btns[1] = {x,y,z,width,height,radius,diameter,text=""}
+main_menu_btns[2] = {x,y,z,width,height,radius,diameter,text=""}
+main_menu_btns[3] = {x,y,z,width,height,radius,diameter,text=""}
+
+local settings_menu_btns = {}
+settings_menu_btns[1] = {x,y,z,width,height,radius,diameter,text=""}
+settings_menu_btns[2] = {x,y,z,width,height,radius,diameter,text=""}
+settings_menu_btns[3] = {x,y,z,width,height,radius,diameter,text=""}
+
+
+
 function menus.update(dt)
   local dx, dy = love.graphics.getDimensions()
   local FPS = love.timer.getFPS()
@@ -18,7 +30,7 @@ function menus.keypressed(key)
     love.event.quit()
   end
   if key == "" then
-    
+
   end
   if key == "" then
 
