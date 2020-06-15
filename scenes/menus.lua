@@ -13,12 +13,16 @@ settings_menu_btns[1] = {x,y,z,width,height,radius,diameter,text=""}
 settings_menu_btns[2] = {x,y,z,width,height,radius,diameter,text=""}
 settings_menu_btns[3] = {x,y,z,width,height,radius,diameter,text=""}
 
+local wiki_buttons = {}
+
 
 
 function menus.update(dt)
   local dx, dy = love.graphics.getDimensions()
   local FPS = love.timer.getFPS()
   local Delta = love.timer.getDelta()
+  local mx, my = love.mouse.getPosition()
+
 end
 function menus.draw()
 
