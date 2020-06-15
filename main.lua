@@ -10,6 +10,8 @@ g_wiki = {}
 g_achivements = {}
 g_game_data = {}
 g_ram = {}
+g_connections = {}
+g_network = {}
 
 --[[
 
