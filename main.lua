@@ -1,4 +1,17 @@
 --[[
+  DarkLite Lua Game Project 2D
+  by Jon Vail
+]]
+
+--Globals
+g_user = {}
+g_settings = {}
+g_wiki = {}
+g_achivements = {}
+g_game_data = {}
+g_ram = {}
+
+--[[
 
 ]]
 
