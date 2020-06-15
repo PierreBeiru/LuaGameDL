@@ -19,5 +19,9 @@ function network:update(dt)
 
 end
 
+function network:serialize(object)
+  
+end
+
 
 return network
