@@ -1,51 +1,94 @@
 local ingame = {}
 
-function ingame.update(dt)
+ingame.world = {}
+
+
+function ingame.load()
 
 end
-
 function ingame.draw()
 
 end
+function ingame.update(dt)
 
-function ingame.mousepressed()
+end
+function ingame.keypressed(key)
+
+end
+function ingame.isDown(key)
+
+end
+function ingame.hasKeyRepeat()
+
+end
+function ingame.hasTextInput()
+
+end
+function ingame.setKeyRepeat(enable)
+
+end
+function ingame.isScancodeDown(scancode, ...)
+
+end
+function ingame.getKeyFromScancode(scancode)
+
+end
+function ingame.getScancodeFromKey(key)
+
+end
+function ingame.gamepadaxis(joystick, axis)
+
+end
+function ingame.gamepadpressed(joystick, button)
+
+end
+function ingame.gamepadreleased(joystick, button)
+
+end
+function ingame.joystickhat(joystick, hat, direction)
+
+end
+function ingame.joystickaxis(joystick, axis, value)
+
+end
+function ingame.joystickadded(joystick)
+
+end
+function ingame.joystickpressed(joystick, button)
+
+end
+function ingame.joystickremoved(joystick)
+
+end
+function ingame.joystickreleased(joystick, button)
+
+end
+function ingame.mousemoved(x, y, dx, dy)
+
+end
+function ingame.mousefocus(focus)
+
+end
+function ingame.mousepressed(x, y, button, isTouch)
+
+end
+function ingame.mousereleased(x, y, button, isTouch)
+
+end
+function ingame.focus(focus)
+
+end
+function ingame.wheelmoved(x, y)
+
+end
+function ingame.touchpressed(id, x, y, dx, dy, pressure)
+
+end
+function ingame.touchmoved(id, x, y, dx, dy, pressure)
+
+end
+function ingame.touchreleased(id, x, y, dx, dy, pressure)
 
 end
 
-function ingame.mousereleased()
-
-end
-
---[[
-function ingame.load() end
-function ingame.draw() end
-function ingame.update() end
-function ingame.keypressed() end
-function ingame.isDown() end
-function ingame.hasKeyRepeat() end
-function ingame.hasTextInput() end
-function ingame.setKeyRepeat() end
-function ingame.isScancodeDown() end
-function ingame.getKeyFromScancode() end
-function ingame.getScancodeFromKey() end
-function ingame.gamepadaxis() end
-scene.gamepadpressed = menus.gamepadpressed
-scene.gamepadreleased = menus.gamepadreleased
-scene.joystickhat = menus.joystickhat
-scene.joystickaxis = menus.joystickaxis
-scene.joystickadded = menus.joystickadded
-scene.joystickpressed = menus.joystickpressed
-scene.joystickremoved = menus.joystickremoved
-scene.joystickreleased = menus.joystickreleased
-scene.mousemoved = menus.mousemoved
-scene.mousefocus = menus.mousefocus
-scene.mousepressed = menus.mousepressed
-scene.mousereleased = menus.mousereleased
-scene.focus = menus.focus
-scene.wheelmoved = menus.wheelmoved
-scene.touchpressed = menus.touchpressed
-scene.touchmoved = menus.touchmoved
-scene.touchreleased = menus.touchreleased
-]]
-
-return ingame 
+return ingame
